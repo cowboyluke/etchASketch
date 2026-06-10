@@ -1,0 +1,22 @@
+#container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    aspect-ratio: 1/1;
+}
+
+.square {
+    box-sizing: border-box;
+    flex-basis: 6.25%;
+    aspect-ratio: 1/1;
+    
+    /*border-color: aqua;
+    border-width: 1px;
+    border-style: solid;*/
+}
+
+.hovered {
+    background-color: aqua;
+}
